@@ -14,16 +14,16 @@ You will need Autohotkey, Python 3 and MaxTo. You will also need to install the 
 
 ## 1) Installation & Setup
 
-1. If you do not have Python 3 installed, you should do it first. You may for example use the [Anaconda](https://anaconda.org/) distribution. The folders for python executable (python.exe) and pip (pip.exe) must be added to your PATH environmental variable. Note that edting `PATH` requires relogin or reboot. When `python`and `pip` commands are available for you on the command line, your Python config is ok.
+1. If you do not have Python 3 installed, you should do it first. You may for example use the [Anaconda](https://anaconda.org/) distribution. The folders for python executable (python.exe) and pip (pip.exe) must be added to your PATH environmental variable. Note that editing `PATH` requires relogin or reboot. When `python`and `pip` commands are available for you on the command line, your Python config is ok.
 2. Install [pywinauto](https://github.com/pywinauto/pywinauto) for python.
 
 ```sh
 > pip install pywinauto
 ```
 
-3. Install [AutoHotkey](https://autohotkey.com/). Place a main `myscripts.ahk` into folder of you choice. Then, into top section of your main AHK file (e.g. `myscript.ahk`) insert the line:
+3. Install [AutoHotkey](https://autohotkey.com/). Place a main (e.g. `myscript.ahk`) into folder of you choice. Then, into top section of your main AHK file insert the line:
    `#include %A_ScriptDir%\maxto-regions\maxtoRegions.ahk`
-4. Add the `maxto-regions` folder into same folder where your main AHK script (`myscript.ahk`) is.
+4. Add the `maxto-regions` folder (from this repo) into same folder where your main AHK script (`myscript.ahk`) is.
 5. Start or reload your main AHK script. (double-click on the `myscript.ahk`, or from the AHK status bar icon: right-click -> Reload This Script)
 6. Configure the MaxTo hotkeys:
    * Right click the MaxTo status bar icon
@@ -46,12 +46,21 @@ If you wish to use any other hotkey for `Edit main regions` or `Edit alternate r
 The script is setup to be used with two main region profiles (two and three) and two alternate region profiles (sublime & terminals).
 
 **1.3.1) Names**
+
 If you want use region profiles with different names, you will have to edit the respective line of the `maxtoRegions.ahk`. For example to change the name of the `sublime` profile to `vscode`, you would change
-`Run "python" "%A_ScriptDir%\maxto-regions\changeregion.py" "sublime",,Hide`
+
+```
+Run "python" "%A_ScriptDir%\maxto-regions\changeregion.py" "sublime",,Hide
+```
+
 to
-`Run "python" "%A_ScriptDir%\maxto-regions\changeregion.py" "vscode",,Hide`
+
+```
+Run "python" "%A_ScriptDir%\maxto-regions\changeregion.py" "vscode",,Hide
+```
 
 **1.3.2) Number of profiles**
+
 Doable. Just add more cases to the `if..else` block in the `maxtoRegions.ahk`, and add a new hotkey to handle the new case. For example, adding profile `newprofile` to `main` region profiles:
 
 ```
@@ -104,7 +113,8 @@ To use the script, you must always have your AHK script running in the backgroun
 * `Win+Numpad3`: Change the `main` region profile to be `three`
 * `Alt+Numpad1`: Change the `alternate` region profile to be `sublime`
 * `Alt+Numpad3`: Change the `alternate` region profile to be `terminals`
-  to change your shortcuts and/or profile names, see sections 1.3 and 1.4.
+
+to change your shortcuts and/or profile names, see sections 1.3 and 1.4.
 
 ### Other notes
 
