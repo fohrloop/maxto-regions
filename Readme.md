@@ -100,11 +100,11 @@ To use the script, you must always have your AHK script running in the backgroun
 
 ### 2.1) The default shortcuts
 
-`Win+Numpad1`: Change the `main` region profile to be `two`
-`Win+Numpad3`: Change the `main` region profile to be `three`
-`Alt+Numpad1`: Change the `alternate` region profile to be `sublime`
-`Alt+Numpad3`: Change the `alternate` region profile to be `terminals`
-to change your shortcuts and/or profile names, see sections 1.3 and 1.4.
+* `Win+Numpad1`: Change the `main` region profile to be `two`
+* `Win+Numpad3`: Change the `main` region profile to be `three`
+* `Alt+Numpad1`: Change the `alternate` region profile to be `sublime`
+* `Alt+Numpad3`: Change the `alternate` region profile to be `terminals`
+  to change your shortcuts and/or profile names, see sections 1.3 and 1.4.
 
 ### Other notes
 
