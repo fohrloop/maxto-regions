@@ -2,7 +2,7 @@
 
 [![Video: maxtoRegions in practice](https://media.giphy.com/media/xUOxf6w8BxyfMFgITK/giphy.gif)](https://nodesource.com/products/nsolid)
 
-A simple [AutoHotkey](https://autohotkey.com/) & [Python](https://www.python.org/) powered script to make changing [MaxTo](https://maxto.net/) region profiles even faster. This script is for you, if you **use more than two** ("main" and "alternate") **region profiles**. By default, to script assumes two "main" region profiles; `two` and `three`, and two "alternate" region profiles `sublime` and `terminals`. These have shortkeys `Win + Numpad1 / NumPad3` and `Alt + Numpad1 / Numpad3`, respectively.
+A simple [AutoHotkey](https://autohotkey.com/) & [Python](https://www.python.org/) powered script to make changing [MaxTo](https://maxto.net/) region profiles even faster. This script is for you, if you **two or more region profiles** (in "main" or/and in "alternate"). By default, to script assumes two "main" region profiles; `two` and `three`, and two "alternate" region profiles `sublime` and `terminals`. These have shortkeys `Win + Numpad1 / NumPad3` and `Alt + Numpad1 / Numpad3`, respectively.
 
 ### What does it do?
 
