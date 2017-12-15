@@ -1,6 +1,6 @@
 # maxtoRegions
 
-[![Video: maxtoRegions in practice](https://media.giphy.com/media/xUOxf6w8BxyfMFgITK/giphy.gif)](https://nodesource.com/products/nsolid)
+[![Video: maxtoRegions in practice](https://media.giphy.com/media/xUOxf6w8BxyfMFgITK/giphy.gif)](https://github.com/np-8/maxto-regions/raw/master/img/maxtoRegions.gif)
 
 A simple [AutoHotkey](https://autohotkey.com/) & [Python](https://www.python.org/) powered script to make changing [MaxTo](https://maxto.net/) region profiles even faster. This script is for you, if you **use two or more region profiles** (in "main" or/and in "alternate"). By default, this script assumes two "main" region profiles; `two` and `three`, and two "alternate" region profiles `sublime` and `terminals`. These have shortkeys `Win + Numpad1 / NumPad3` and `Alt + Numpad1 / Numpad3`, respectively.
 
