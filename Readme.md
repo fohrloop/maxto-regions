@@ -23,7 +23,7 @@ You will need Autohotkey, Python 3 and MaxTo. You will also need to install the 
 
 3. Install [AutoHotkey](https://autohotkey.com/). Place a main (e.g. `myscript.ahk`) into folder of you choice. Then, into top section of your main AHK file insert the line:
    `#include %A_ScriptDir%\maxto-regions\maxtoRegions.ahk`
-4. Add the `maxto-regions` folder (from this repo) into same folder where your main AHK script (`myscript.ahk`) is.
+4. Create a folder called `maxto-regions` into same folder where your main AHK script (`myscript.ahk`) is. Place the `maxtoRegions.ahk` and `changeregion.py` from this package into it.
 5. Start or reload your main AHK script. (double-click on the `myscript.ahk`, or from the AHK status bar icon: right-click -> Reload This Script)
 6. Configure the MaxTo hotkeys:
    * Right click the MaxTo status bar icon
